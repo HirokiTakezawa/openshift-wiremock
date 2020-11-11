@@ -4,7 +4,7 @@ ENV HOME=/opt/wiremock \
     TERM=xterm
 
 RUN yum install -y epel-release java-1.8.0-openjdk vim && \
-    yum install -y python2-pip origin-clients && \
+    yum install -y python2-pip && \
     pip install -U pip && \
     pip install -U setuptools && \
     pip install httpie && \
